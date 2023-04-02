@@ -1,0 +1,132 @@
+.decoracao {
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .intro,
+  main {
+    margin-top: 20px;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .recomendacao {
+    color: #69166B;
+  }
+  
+  h1 {
+    color: #69166B;
+    line-height: 42px;
+    align-content: space-evenly;
+  }
+  
+  .teste {
+    display: block;
+    margin: 10px;
+  }
+  
+  .areaTexto {
+    display: absolute;
+    margin-bottom: 60px;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 30px;
+    color: #1F1D1F;
+  }
+  
+  .iconSpotify {
+    filter: invert();
+    width: 150px;
+  }
+  
+  
+  .iconSpotify:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+  }
+  
+  body {
+    font-family: "Quicksand", "Poppins", sans-serif;
+    background-color: #A390B0;
+    padding: 0;
+  }
+
+  .decoracao-coracao {
+    display: absolute;
+    max-width: 200px;
+    margin-top: 10px;
+  }
+  
+  .decoracao-coracao:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.4);
+  }
+
+  .container-slider {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: -130px 0px 70px 0px;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+  }
+  
+  
+  .slider {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .on {
+    opacity: 1;
+  
+  }
+  
+  #prev-button,
+  #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    filter: invert();
+  }
+  
+  #prev-button:hover,
+  #next-button:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.4);
+  }
+  
+  #prev-button img,
+  #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+
+/*#321A3F
+#200F25
+#8B1C8D
+#F639E9- cor do coração
+*/
